@@ -10,7 +10,7 @@ var (
 	SuccessBody = []byte("success")
 )
 
-func PostHandler(m model.EntityManager) http.HandlerFunc {
+func PostHandler(m *model.Manager) http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
 		entity := new(model.Entity)
 
