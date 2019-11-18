@@ -1,0 +1,5 @@
+DSN=postgres://badguy:goodguy@db/mydb?sslmode=disable
+ENTITY_DELETE_DURATION=1
+ENTITY_PROCESS_DURATION=1
+WITH_MIGRATIONS=true
+PORT=:80

@@ -1,0 +1,9 @@
+POST http://localhost/post
+Accept: */*
+Cache-Control: no-cache
+Source-Type: client
+
+{ "action": "test", "state": "new"}
+
+###
+

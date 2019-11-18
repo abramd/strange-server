@@ -1,0 +1,5 @@
+BEGIN;
+
+DELETE FROM sources WHERE 1=1;
+
+COMMIT;

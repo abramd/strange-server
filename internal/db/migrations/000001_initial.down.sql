@@ -1,0 +1,7 @@
+BEGIN;
+
+DROP TABLE IF EXISTS entities;
+DROP TABLE IF EXISTS states;
+DROP TYPE states;
+
+COMMIT;
