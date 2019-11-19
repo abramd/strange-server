@@ -24,6 +24,7 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
+	defer db.Close()
 
 	if config.Cfg.WithMigrations {
 		m, err := migrate.New("file:///migrations", dsn)
